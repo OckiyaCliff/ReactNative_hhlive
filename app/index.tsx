@@ -49,8 +49,8 @@ const Page = () => {
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       style={styles.container}>
       <Spinner visible={loading} />
-      <Text style={styles.header}>Meet Me</Text>
-      <Text style={styles.subheader}>The fastest way to meet</Text>
+      <Text style={styles.header}>Worship</Text>
+      <Text style={styles.subheader}>Fellowship with Us</Text>
       <TextInput
         autoCapitalize="none"
         placeholder="john@doe.com"
