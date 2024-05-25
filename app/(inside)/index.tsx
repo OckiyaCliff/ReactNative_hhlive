@@ -47,18 +47,18 @@ const Page = () => {
         }}>
         <TouchableOpacity onPress={onStartMeeting} style={styles.button}>
           <Ionicons name="videocam-outline" size={24} />
-          <Text style={styles.buttonText}>Start new Meeting</Text>
+          <Text style={styles.buttonText}>Start new service</Text>
         </TouchableOpacity>
 
         <TouchableOpacity onPress={onJoinMeeting} style={styles.button}>
           <Ionicons name="business-outline" size={24} />
-          <Text style={styles.buttonText}>Join Meeting by ID</Text>
+          <Text style={styles.buttonText}>Join service by ID</Text>
         </TouchableOpacity>
       </View>
 
       <View style={styles.divider}>
         <View style={{ flex: 1, height: StyleSheet.hairlineWidth, backgroundColor: '#000' }} />
-        <Text style={{ fontSize: 18 }}>or join public room</Text>
+        <Text style={{ fontSize: 18 }}>or join general service</Text>
         <View style={{ flex: 1, height: StyleSheet.hairlineWidth, backgroundColor: '#000' }} />
       </View>
 
